@@ -1,0 +1,7 @@
+services:
+  haskell_devcontainer:
+    build: .
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    tty: true
